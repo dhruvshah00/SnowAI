@@ -2,7 +2,14 @@
 
 This repo contain code to WebAPI that responds to user's query in plain english with Structured data output retrieved from Data Warehouse.
 
-### Deploy from your local machine
+### Sample Flow
+
+#### Flow diagram for a sample API endpoint call
+
+![Alt text](assets/flow.png)
+
+
+### Setup
 
 #### Python Setup
 1. Install Python> 3.10
@@ -42,7 +49,3 @@ This repo contain code to WebAPI that responds to user's query in plain english 
     ```
 
 3. You can see the local running app at http://127.0.0.1.
-
-4. Flow diagram for a sample API endpoint call
-
-![Alt text](assets/flow.png)
