@@ -1,0 +1,20 @@
+CREATE TABLE dt_position_denorm (
+        business_date TIMESTAMP_NTZ,
+        security_id DECIMAL(38, 0),
+        security_type VARCHAR(16777216),
+        security_name VARCHAR(16777216),
+        issuer_name VARCHAR(16777216),
+        portfolio_code VARCHAR(16777216),
+        portfolio_currency VARCHAR(16777216),
+        portfolio_name VARCHAR(16777216),
+        fund_code VARCHAR(16777216),
+        fund_name VARCHAR(16777216),
+        fund_type VARCHAR(16777216),
+        par_amount_traded_local DECIMAL(36, 10) NOT NULL,
+        cost_amount_traded_local DECIMAL(36, 10) NOT NULL,
+        cost_amount_traded_base DECIMAL(36, 10) NOT NULL,
+        market_value_traded_local DECIMAL(36, 10) NOT NULL,
+        market_value_traded_base DECIMAL(36, 10) NOT NULL,
+        market_price_base DECIMAL(24, 10) NOT NULL,
+        market_price_local DECIMAL(24, 10) NOT NULL
+)
